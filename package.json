@@ -1,0 +1,41 @@
+{
+  "name": "remotal_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.0",
+    "emailjs-imap-client": "^3.1.0",
+    "imap": "^0.8.19",
+    "open": "^7.3.0"
+  },
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open",
+    "runHeadless": "./node_modules/.bin/cypress run --headless",
+    "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
+    "foC": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/front_office/**/ --browser chrome",
+    "foF": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/front_office/**/ --browser firefox",
+    "foHeadless": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/front_office/**/ --headless",
+    "boC": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/back_office/**/ --browser chrome",
+    "boF": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/back_office/**/ --browser firefox",
+    "boHeadless": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/back_office/**/  --headless"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goodwin777/remotal_cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goodwin777/remotal_cypress/issues"
+  },
+  "homepage": "https://github.com/Goodwin777/remotal_cypress#readme"
+}
