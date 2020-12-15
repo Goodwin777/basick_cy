@@ -1,5 +1,5 @@
 {
-  "name": "remotal_tests",
+  "name": "cypress_tests",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -21,12 +21,9 @@
     "test": "./node_modules/.bin/cypress open",
     "runHeadless": "./node_modules/.bin/cypress run --headless",
     "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
-    "foC": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/front_office/**/ --browser chrome",
-    "foF": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/front_office/**/ --browser firefox",
-    "foHeadless": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/front_office/**/ --headless",
-    "boC": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/back_office/**/ --browser chrome",
-    "boF": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/back_office/**/ --browser firefox",
-    "boHeadless": "./node_modules/.bin/cypress run --spec cypress/integration/ds-test/back_office/**/  --headless"
+    "record":"./node_modules/.bin/cypress run --record --key 78e12e4f-7d4b-40c4-9d19-034889284c16"
+    
+     
   },
   "repository": {
     "type": "git",
