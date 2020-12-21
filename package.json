@@ -15,15 +15,14 @@
     "mocha": "^8.2.1",
     "mochawesome": "^6.2.1",
     "mochawesome-merge": "^4.2.0",
-    "mochawesome-report-generator": "^5.1.0"
+    "mochawesome-report-generator": "^5.1.0",
+    "start-server-and-test": "^1.11.6"
   },
   "scripts": {
     "test": "./node_modules/.bin/cypress open",
     "runHeadless": "./node_modules/.bin/cypress run --headless",
     "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
-    "record":"./node_modules/.bin/cypress run --record --key 78e12e4f-7d4b-40c4-9d19-034889284c16"
-    
-     
+    "record": "./node_modules/.bin/cypress run --record --key 78e12e4f-7d4b-40c4-9d19-034889284c16"
   },
   "repository": {
     "type": "git",
