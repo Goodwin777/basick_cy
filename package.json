@@ -22,16 +22,17 @@
     "test": "./node_modules/.bin/cypress open",
     "runHeadless": "./node_modules/.bin/cypress run --headless",
     "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
-    "record": "./node_modules/.bin/cypress run --record --key 78e12e4f-7d4b-40c4-9d19-034889284c16"
+    "record": "./node_modules/.bin/cypress run --record --key b5c6d977-6acf-45f8-a524-78a8a4cb12bc"
+    
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Goodwin777/remotal_cypress.git"
+    "url": "git+https://github.com/Goodwin777/basick_cy.git.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Goodwin777/remotal_cypress/issues"
+    "url": "https://github.com/Goodwin777/basick_cy.git/issues"
   },
-  "homepage": "https://github.com/Goodwin777/remotal_cypress#readme"
+  "homepage": "https://github.com/Goodwin777/basick_cy.git#readme"
 }
