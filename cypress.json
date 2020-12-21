@@ -1,3 +1,4 @@
 {
+    "baseUrl" : "https://example.cypress.io",
     "projectId": "wgbb93"
 }
