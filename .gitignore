@@ -105,5 +105,5 @@ dist
 package-lock.json
 */videos/*
 cypress/screenshots/
-enshots/
-        
+cypress/videos/
+yarn.lock
