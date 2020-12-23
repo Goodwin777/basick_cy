@@ -12,16 +12,9 @@ describe('My First Test', () => {
   });
 
   it('get text of first element', () => {
-    const eventNames = []
-
-
     cy.get('.gb_g').eq(0)
       .each(($el) => {
-         cy.wrap($el.text())
- 
-
-
+        cy.wrap($el.text())
       });
-    // cy.log(eventNames)
   });
 });
