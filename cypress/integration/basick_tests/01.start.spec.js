@@ -6,7 +6,7 @@ before(() => {
 describe('My First Test', () => {
   it('Check the title of page', () => {
 
-    cy.title().should('eq', 'Google')
+    cy.title().should('eq', 'Googlee')
 
 
   });

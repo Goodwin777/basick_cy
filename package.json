@@ -10,7 +10,7 @@
     "open": "^7.3.0"
   },
   "devDependencies": {
-    "cypress": "^6.1.0",
+    "cypress": "6.2.0",
     "cypress-multi-reporters": "^1.4.0",
     "mocha": "^8.2.1",
     "mochawesome": "^6.2.1",
@@ -23,7 +23,6 @@
     "runHeadless": "./node_modules/.bin/cypress run --headless",
     "runHeaded": "./node_modules/.bin/cypress run --headed --browser chrome",
     "record": "./node_modules/.bin/cypress run --record --key b5c6d977-6acf-45f8-a524-78a8a4cb12bc"
-    
   },
   "repository": {
     "type": "git",
